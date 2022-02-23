@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+/* Set additional styling options for the columns */
+.column {
+float: left;
+}
+
+/* Set width length for the left, right and middle columns */
+.left {
+width: 20%;
+border-right: 1px solid whitesmoke;
+height: 600px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  
+  
+  overflow-x: hidden;
+  padding-top: 15px;
+}
+
+.left a {
+    padding: 5px 8px 5px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+  }
+
+.middle {
+   padding-left: 22%;
+   padding-top: 15px;
+   width: 70%;
+   border-right: 1px solid whitesmoke;
+   height: 600px;
+}
+
+.box{
+    width: 650px;
+    height: 100px;
+    border-radius: 25px;
+    background-color: rgb(114, 223, 231);
+    border: 1px solid  rgb(114, 223, 231);
+    margin: 5px;
+    padding: 20Px;
+    }
+
+.box1{
+   
+    width: 650px;
+    height: 150px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(37, 35, 35);
+    border: 1px solid rgb(37, 35, 35);
+    margin: 5px;
+    padding: 20Px;
+}    
+.box2{
+    width: auto;
+    border-radius: 20px;
+    background-color: rgba(75, 70, 70, 0.904);
+}
+
+.c {
+  float: left;
+  
+  width:325px;
+  height: 150px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(37, 35, 35);
+    border: 1px solid rgb(37, 35, 35);
+    column-gap: 20px;
+    padding: 20Px;
+  }
+
+  .r:after {
+    
+  content: "";
+  display: table;
+  clear: both;
+  
+  }
+
+
+.right {
+    float: left;
+width: 30%;
+padding-top: 15px;
+    padding-left: 2%;
+}
+
+.card {
+
+    float: left;
+    text-align: justify;
+    text-decoration-color: aliceblue;
+   background-color: #a79797;
+    width:40%;
+    height: 5%;
+   
+    
+  }
+
+  .button{
+    
+    border: none;
+    color: white;
+    border-radius: 25px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.box3{
+  width: auto;
+  border-radius: 20px;
+ color: white;
+}
+.box4{
+  width: 650px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgba(75, 70, 70, 0.904);
+  color: rgb(139, 132, 132);
+
+}
